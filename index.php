@@ -3,7 +3,7 @@
 // this is the data coming from the Android app
 $message=$_POST["message"]; 
 // specify the file where we will save the contents of the variable message
-$filename="submitted-msg.html";
+$filename="index.php";
 // write (append) the data to the file
 file_put_contents($filename,$message." From Peter",FILE_APPEND);
 // load the contents of the file to a variable
